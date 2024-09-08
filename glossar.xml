@@ -2486,7 +2486,7 @@
       <form>Strafraum</form>
       <ref type="kicktionary" target="Field/LU_904.html"/>
     </entry>
-    <entry category="#techniken-bewegungen #ausruestung-spielfeld" aspect="#taktik-defensiv #torwartbewegung #spielfeld">
+    <entry category="#techniken-bewegungen #ausruestung-spielfeld" aspect="#taktik-defensiv #torwartbewegung">
       <form>Strafraumbeherrschung</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
@@ -2907,7 +2907,7 @@
       <form>Wiederanpfiff</form>
       <ref type="kicktionary" target="Start_End_Match/LU_1786.html"/>
     </entry>
-    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+    <entry category="#ausruestung-spielfeld" aspect="#ball">
       <form>Wuchtel</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung #ballbewegung">
