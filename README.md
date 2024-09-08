@@ -14,7 +14,7 @@ Das Glossar teilt sich auf in:
 
 **Kategorien** sind thematische Cluster, in die Einträge zuordnet werden können.
 
-**Aspekte** sind konkrete Situationen, Abstrakta und Konkreta, die eine genauere Zuordnung von Einträgen innerhalb der Fußballsprache ermöglichen.
+**Aspekte** sind Schlagworte zu konkrete Situationen, Abstrakta und Konkreta und ermöglichen eine genauere Zuordnung von Einträgen innerhalb der Fußballsprache.
 
 Beide Formen bieten jeweils einen Zugang zu und eine nähere Bestimmung der einzelnen Begriffe.
 
