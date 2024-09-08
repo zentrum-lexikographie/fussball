@@ -1,0 +1,51 @@
+default namespace = "http://www.dwds.de/ns/glossar/1.0"
+
+start = element glossar {
+  cluster,
+  entries
+}
+
+cluster = element cluster {
+  item+
+}
+
+item = element item {
+  attribute xml:id { xsd:ID }?,
+  attribute type { ('aspect'|'category') }?,
+  element title { text },
+  element desc { text }?,
+  figure?,
+  cluster*,
+  item*
+}
+
+figure = element figure {
+  attribute ref { xsd:anyURI }
+}
+
+entries = element entries {
+  entry*
+}
+
+entry = element entry {
+  attribute category { list { xsd:anyURI* } },
+  attribute aspect { list { xsd:anyURI* } },
+  form,
+  ref*,
+  map?
+}
+
+form = element form {
+  attribute hom { xsd:integer }?,
+  text
+}
+
+ref = element ref {
+  attribute target { xsd:anyURI },
+  attribute type { 'kicktionary' }
+}
+
+map = element map {
+  attribute corpus { 'regional' | 'webmonitor' }?,
+  attribute query { text }?
+}

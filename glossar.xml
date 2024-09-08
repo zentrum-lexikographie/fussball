@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rnc" type="application/relax-ng-compact-syntax"?>
+<glossar xmlns="http://www.dwds.de/ns/glossar/1.0">
+  <cluster>
+    <item xml:id="spielstrategie" type="category">
+      <title>Spielstrategie und Taktik</title>
+      <desc>Begriffe, die sich auf die strategische Ausrichtung, die Spielweise und taktische
+        Überlegungen beziehen.</desc>
+      <figure ref="spielstrategie.webp"/>
+    </item>
+    <item xml:id="spielerpositionen" type="category">
+      <title>Spielerpositionen und Rollen</title>
+      <desc>Begriffe, die verschiedene Spielerpositionen und deren spezifische Rollen auf dem
+        Spielfeld beschreiben.</desc>
+      <figure ref="spielerpositionen.webp"/>
+    </item>
+    <item xml:id="spielformen-wettbewerbe" type="category">
+      <title>Spielformen und Wettbewerbe</title>
+      <desc>Begriffe, die sich auf verschiedene Spielarten, Turniere, und Wettkämpfe im Fußball
+        beziehen.</desc>
+      <figure ref="spielformen.webp"/>
+    </item>
+    <item xml:id="techniken-bewegungen" type="category">
+      <title>Techniken und Bewegungen</title>
+      <desc>Begriffe, die spezifische technische Fähigkeiten, Bewegungen und Aktionen im Fußball
+        beschreiben.</desc>
+      <figure ref="techniken.webp"/>
+    </item>
+    <item xml:id="schiedsrichterwesen-regeln" type="category">
+      <title>Schiedsrichterwesen und Regeln</title>
+      <desc>Begriffe, die sich auf die Rolle des Schiedsrichters, Regelverstöße und spezielle
+        Spielregeln beziehen.</desc>
+      <figure ref="schiedsrichterwesen.webp"/>
+    </item>
+    <item xml:id="spielereignisse-tore" type="category">
+      <title>Spielereignisse und Tore</title>
+      <desc>Begriffe, die typische Ereignisse während des Spiels und speziell das Erzielen von Toren
+        beschreiben.</desc>
+      <figure ref="spielereignisse.webp"/>
+    </item>
+    <item xml:id="mannschaftsstruktur-aufstellung" type="category">
+      <title>Mannschaft und -aufstellung</title>
+      <desc>Begriffe, die die Zusammensetzung, Hierarchie und Aufstellung von Mannschaften
+        betreffen.</desc>
+      <figure ref="mannschaftsstruktur.webp"/>
+    </item>
+    <item xml:id="kultur-umfeld" type="category">
+      <title>Kultur und Umfeld</title>
+      <desc>Begriffe, die das soziale und kulturelle Umfeld des Fußballs, einschließlich Fankultur
+        und Traditionen, beschreiben.</desc>
+      <figure ref="kultur.webp"/>
+    </item>
+    <item xml:id="ausruestung-spielfeld" type="category">
+      <title>Ausrüstung und Spielfeld</title>
+      <desc>Begriffe, die sich auf die Ausstattung der Spieler und die Merkmale des Spielfeldes
+        beziehen.</desc>
+      <figure ref="ausruestung.webp"/>
+    </item>
+    
+    <item xml:id="schuss" type="aspect">
+      <title>Schuss</title>
+      <item xml:id="taeuschung"><title>Täuschung</title></item>
+      <item xml:id="torschuss"><title>Torschuss</title></item>
+      <item xml:id="abschlag"><title>Abschlag</title></item>
+      <item xml:id="eingriff"><title>Eingriff</title></item>
+      <item xml:id="fehlschuss"><title>Fehlschuss</title></item>
+      <item xml:id="rettung"><title>Rettung</title></item>
+      <item xml:id="schusstechnik"><title>Schusstechnik</title></item>
+      <item xml:id="standard"><title>Standard</title></item>
+    </item>
+    <item xml:id="pass" type="aspect">
+      <title>Pass</title>
+      <item xml:id="kontrolle"><title>Kontrolle</title></item>
+      <item xml:id="vorlage"><title>Vorlage</title></item>
+    </item>
+    <item xml:id="tor-treffer" type="aspect">
+      <title>Tor</title>
+      <item xml:id="aberkennung"><title>Aberkennung</title></item>
+      <item xml:id="jubel"><title>Jubel</title></item>
+      <item xml:id="eigentor"><title>Eigentor</title></item>
+    </item>
+    <item xml:id="eins-gegen-eins" type="aspect">
+      <title>Eins-gegen-eins</title>
+      <item xml:id="trick"><title>Trick</title></item>
+      <item xml:id="zweikampf"><title>Zweikampf</title></item>
+    </item>
+    <item xml:id="regelverstoss" type="aspect">
+      <title>Regelverstoß</title>
+      <item xml:id="koerperlichkeit"><title>Körperlichkeit</title></item>
+      <item xml:id="abseits"><title>Abseits</title></item>
+      <item xml:id="aus"><title>Aus</title></item>
+      <item xml:id="unsportlichkeit"><title>Unsportlichkeit</title></item>
+      <item xml:id="schiedsrichterentscheid"><title>Schiedsrichterentscheid</title></item>
+      <item xml:id="strafe"><title>Strafe</title></item>
+      <item xml:id="vorteil"><title>Vorteil</title></item>
+    </item>
+    <item xml:id="chance" type="aspect">
+      <title>Chance</title>
+    </item>
+    <item xml:id="bewegung" type="aspect">
+      <title>Bewegung</title>
+      <item xml:id="ballbewegung"><title>Ballbewegung</title></item>
+      <item xml:id="spielerbewegung"><title>Spielerbewegung</title></item>
+      <item xml:id="torwartbewegung"><title>Torwartbewegung</title></item>
+      <item xml:id="mannschaftsbewegung"><title>Mannschaftsbewegung</title></item>
+    </item>
+    <item xml:id="wechsel" type="aspect">
+      <title>Wechsel</title>
+      <item xml:id="einwechslung"><title>Einwechslung</title></item>
+      <item xml:id="auswechslung"><title>Auswechslung</title></item>
+    </item>
+    <item xml:id="spiel" type="aspect">
+      <title>Spiel</title>
+      <item xml:id="spielbeginn-ende"><title>Spielbeginn und -ende</title></item>
+      <item xml:id="spielstand"><title>Spielstand</title></item>
+      <item xml:id="spielphase"><title>Spielphase</title></item>
+      <item xml:id="spielausgang"><title>Spielausgang</title></item>
+      <item xml:id="spielort"><title>Spielort</title></item>
+      <item xml:id="statistik"><title>Statistik</title></item>
+      <item xml:id="qualitaet"><title>Qualität</title></item>
+      <item xml:id="stimmung"><title>Stimmung</title></item>
+    </item>
+    <item xml:id="taktik" type="aspect">
+      <title>Taktik</title>
+      <item xml:id="taktik-offensiv"><title>Offensive Taktiken</title>
+        <desc>Strategien, die den Angriff und das Erzielen von Toren fokussieren.</desc>
+      </item>
+      <item xml:id="taktik-defensiv">
+        <title>Defensive Taktiken</title>
+        <desc>Strategien, die darauf abzielen, den eigenen Strafraum zu verteidigen und Gegentore
+          zu verhindern.</desc>
+      </item>
+      <item xml:id="taktik-mittelfeld">
+        <title>Spielweisen Mittelfeld</title>
+        <desc>Taktiken, die das Spiel im Mittelfeld dominieren und kontrollieren.</desc>
+      </item>
+      <item xml:id="taktik-standards">
+        <title>Standardsituationen</title>
+        <desc>Taktiken, die sich auf spezielle Spielsituationen wie Freistöße und Ecken
+          konzentrieren.</desc>
+      </item>
+      <item xml:id="taktik-spielweise">
+        <title>Allgemeine Spielweise</title>
+        <desc>Allgemeine strategische Ausrichtung und Philosophie des Spiels.</desc>
+      </item>
+    </item>
+    <item xml:id="wettbewerb" type="aspect">
+      <title>Wettbewerb</title>
+      <item xml:id="wettbewerbsphase"><title>Wettbewerbsphase</title></item>
+      <item xml:id="wettbewerbsende"><title>Wettbewerbsende</title></item>
+      <item xml:id="wettbewerbsplatzierung"><title>Platzierung</title></item>
+    </item>
+    <item xml:id="aufstellung" type="aspect">
+      <title>Aufstellung</title>
+      <item xml:id="torwart"><title>Torwart</title></item>
+      <item xml:id="abwehr"><title>Abwehr</title></item>
+      <item xml:id="mittelfeld"><title>Mittelfeld</title></item>
+      <item xml:id="angriff"><title>Angriff</title></item>
+    </item>
+    <item xml:id="akteure" type="aspect">
+      <title>Akteure</title>
+      <item xml:id="spieler"><title>Spieler</title></item>
+      <item xml:id="koerperteil"><title>Körperteil</title></item>
+      <item xml:id="mannschaft"><title>Mannschaft</title></item>
+      <item xml:id="trainer"><title>Trainer</title></item>
+      <item xml:id="schiedsrichter"><title>Schiedsrichter</title></item>
+      <item xml:id="zuschauer"><title>Zuschauer</title></item>
+      <item xml:id="personal"><title>Anderes Personal</title></item>
+      <item xml:id="entwicklung"><title>Entwicklung</title></item>
+    </item>
+    <item xml:id="stadion" type="aspect">
+      <title>Objekte im Stadion</title>
+      <item xml:id="bank"><title>Bank</title></item>
+      <item xml:id="innenraum"><title>Innenraum</title></item>
+    </item>
+    <item xml:id="spielobjekte" type="aspect">
+      <title>Objekte zum Spiel</title>
+      <item xml:id="spielfeld"><title>Spielfeld</title></item>
+      <item xml:id="tor-geraet"><title>Tor</title></item>
+      <item xml:id="ball"><title>Ball</title></item>
+      <item xml:id="ausruestung"><title>Ausrüstung</title></item>
+    </item>
+    
+    <item xml:id="markt" type="aspect">
+      <title>Markt und Wirtschaft</title>
+      <item xml:id="transfer"><title>Transfer</title></item>
+    </item>
+  </cluster>
+  <entries>
+    <entry category="#techniken-bewegungen" aspect="#eingriff">
+      <form>abfälschen</form>
+      <ref type="kicktionary" target="Intervene/LU_7.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #eins-gegen-eins">
+      <form>abgrätschen</form>
+      <ref type="kicktionary" target="Deny/LU_9.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spielerbewegung">
+      <form>abkippen</form>
+    </entry>
+    <entry category="#spielereignisse-tore #techniken-bewegungen" aspect="#torwartbewegung">
+      <form hom="1">abklatschen</form>
+      <ref type="kicktionary" target="Save/LU_11.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#transfer">
+      <form>ablösefrei</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>abmelden</form>
+      <ref type="kicktionary" target="Mark/LU_1678.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwartbewegung #spielerbewegung">
+      <form>abpatschen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#ballbewegung">
+      <form>Abpraller</form>
+      <ref type="kicktionary" target="Ball_Bounce/LU_786.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr">
+      <form>Abräumer</form>
+      <ref type="kicktionary" target="Player/LU_1715.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr">
+      <form>Abräumerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>abschirmen</form>
+      <ref type="kicktionary" target="Mark/LU_16.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#abschlag">
+      <form>Abschlag</form>
+      <ref type="kicktionary" target="Goal_Kickoff/LU_17.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#abschlag #spielerbewegung #koerperteil">
+      <form>abschlagen</form>
+      <ref type="kicktionary" target="Goal_Kickoff/LU_18.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#torschuss">
+      <form>Abschluss</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsende">
+      <form>Abschlusstabelle</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form hom="2">abseits</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form>Abseits</form>
+      <ref type="kicktionary" target="Offside/LU_21.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#abseits #taktik-defensiv">
+      <form>Abseitsfalle</form>
+      <ref type="kicktionary" target="Move/LU_559.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form>Abseitsposition</form>
+      <ref type="kicktionary" target="Offside/LU_22.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form>Abseitsstellung</form>
+      <ref type="kicktionary" target="Offside/LU_23.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #schiedsrichterwesen-regeln" aspect="#abseits #aberkennung">
+      <form>Abseitstreffer</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #torschuss">
+      <form>abstauben</form>
+      <ref type="kicktionary" target="Goal/LU_28.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #spielerpositionen" aspect="#tor-treffer #torschuss #spieler">
+      <form>Abstauber</form>
+      <ref type="kicktionary" target="Goal/LU_29.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #spielerpositionen" aspect="#tor-treffer #torschuss #spieler">
+      <form>Abstauberin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsende">
+      <form>absteigen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>abstiegsgefährdet</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Abstiegskampf</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Abstiegsplatz</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Abstiegsrang</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Abstiegszone</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Abwehrarbeit</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#abwehr">
+      <form>Abwehrfehler</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#abwehr">
+      <form>Abwehrleistung</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-standards">
+      <form>Abwehrmauer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Abwehrspieler</form>
+      <ref type="kicktionary" target="Player/LU_929.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Abwehrspielerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#abwehr">
+      <form>Abwehrsystem</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinalbegegnung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinale</form>
+      <ref type="kicktionary" target="Competition_Stage/LU_1469.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinalhinspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinalpartie</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Achtelfinalrückspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Amateurbereich</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spieler">
+      <form>Amateurkicker</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#mannschaft">
+      <form>Amateurmannschaft</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Ampelkarte</form>
+      <ref type="kicktionary" target="Sanction/LU_35.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung #spielerpositionen" aspect="#aufstellung">
+      <form>Anfangsformation</form>
+      <ref type="kicktionary" target="Team/LU_1871.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-offensiv">
+      <form>Angriffsfußball</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler">
+      <form>Ankerspieler</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#angriff #spieler">
+      <form>Ankerstürmer</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielbeginn-ende">
+      <form>Ankick</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>anlaufen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss">
+      <form>anschießen</form>
+      <ref type="kicktionary" target="Shoot_At/LU_41.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>Anschlusstor</form>
+      <ref type="kicktionary" target="Goal/LU_43.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>Anschlusstreffer</form>
+      <ref type="kicktionary" target="Goal/LU_44.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>anschneiden</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>anspielen</form>
+      <ref type="kicktionary" target="Pass/LU_46.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #pass">
+      <form>Anspielstation</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#standard">
+      <form>Anstoß</form>
+      <ref type="kicktionary" target="Start_End_Match/LU_47.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Anstoßpunkt</form>
+      <ref type="kicktionary" target="Field/LU_1607.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#vorlage">
+      <form>Assist</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>Assistenztrainer</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>Assistenztrainerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv #abseits">
+      <form>auf Abseits spielen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>auf Konter lauern</form>
+      <ref type="kicktionary" target="Tactics/LU_1791.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#entwicklung">
+      <form>Aufbaujahr</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#personal">
+      <form>Auflaufkind</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Aufsetzer</form>
+      <ref type="kicktionary" target="Shot/LU_63.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Aufstiegskampf</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung #mannschaft">
+      <form>Aufstiegskandidat</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Aufstiegsplatz</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Auftaktspiel</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#spielfeld #aus">
+      <form>Aus</form>
+      <ref type="kicktionary" target="Elimination/LU_65.html"/>
+      <ref type="kicktionary" target="Field/LU_1309.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
+      <form>aus dem Winkel fischen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
+      <form>Ausgleich</form>
+      <ref type="kicktionary" target="Goal/LU_68.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
+      <form>Ausgleichstor</form>
+      <ref type="kicktionary" target="Goal/LU_70.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
+      <form>Ausgleichstreffer</form>
+      <ref type="kicktionary" target="Goal/LU_71.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>auskontern</form>
+      <ref type="kicktionary" target="Move/LU_72.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>ausscheiden</form>
+      <ref type="kicktionary" target="Elimination/LU_74.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins">
+      <form>austanzen</form>
+      <ref type="kicktionary" target="Beat/LU_76.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>austragen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Austragung</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#trick">
+      <form>austricksen</form>
+      <ref type="kicktionary" target="Beat/LU_77.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #bank">
+      <form>Auswechselspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #bank">
+      <form>Auswechselspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Außenangreifer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Außenangreiferin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spielfeld">
+      <form>Außenbahn</form>
+      <ref type="kicktionary" target="Field/LU_944.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Außenpfosten</form>
+      <ref type="kicktionary" target="Goal_Target/LU_1502.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperteil">
+      <form>Außenrist</form>
+      <ref type="kicktionary" target="Body_Parts/LU_1625.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperteil">
+      <form>Außenspann</form>
+      <ref type="kicktionary" target="Body_Parts/LU_1637.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Außenspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Außenspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Außenstürmer</form>
+      <ref type="kicktionary" target="Player/LU_971.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Außenstürmerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Außenverteidiger</form>
+      <ref type="kicktionary" target="Player/LU_925.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Außenverteidigerin</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ball">
+      <form hom="1">Ball</form>
+      <ref type="kicktionary" target="Ball/LU_777.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Ballbehauptung</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Ballbesitzfußball</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler">
+      <form>Ballesterer</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler #spielerbewegung">
+      <form>ballestern</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>Ballgefühl</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>ballsicher</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
+      <form>Ballsicherung</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Ballstafette</form>
+      <ref type="kicktionary" target="Pass_Combination/LU_83.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Ballverlust</form>
+      <ref type="kicktionary" target="Lose_Ball/LU_84.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Bananenflanke</form>
+      <ref type="kicktionary" target="Pass/LU_85.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #bank">
+      <form>Bankdrücker</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #bank">
+      <form>Bankdrückerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #bank">
+      <form>Bankerldrücker</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>bedienen</form>
+      <ref type="kicktionary" target="Pass/LU_86.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#tor-treffer #rettung">
+      <form>Befreiungsschlag</form>
+      <ref type="kicktionary" target="Defense_Shot/LU_88.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>bei jmdm. abgemeldet sein</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#trick">
+      <form>Beinschuss</form>
+      <ref type="kicktionary" target="Beat/LU_703.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #spielerpositionen" aspect="#taktik-defensiv">
+      <form>beschatten</form>
+      <ref type="kicktionary" target="Mark/LU_472.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Beton anmischen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Beton anrühren</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>betonieren</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-defensiv">
+      <form>Bewacher</form>
+      <ref type="kicktionary" target="Mark/LU_94.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-defensiv">
+      <form>Bewacherin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Bezirksklasse</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Blitzturnier</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf #koerperlichkeit #unsportlichkeit #spielerbewegung">
+      <form>Blutgrätsche</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #fehlschuss">
+      <form>Bogenlampe</form>
+      <ref type="kicktionary" target="Shot/LU_99.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form hom="1">Bummerl</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spieler #wettbewerb">
+      <form>Bundesligaspieler</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spieler #wettbewerb">
+      <form>Bundesligaspielerin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spieler #mannschaft #wettbewerb">
+      <form>Bundesligist</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spieler #mannschaft #wettbewerb">
+      <form>Bundesligistin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Champions League</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Champions-League-Final</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Champions-League-Finale</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #fehlschuss">
+      <form>Chancentod</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle #trick">
+      <form hom="2">Chip</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle #trick">
+      <form hom="2">chippen</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>Co-Trainer</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>Co-Trainerin</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form hom="1">Coach</form>
+      <ref type="kicktionary" target="Coach/LU_1287.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>Coachin</form>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#standard #spielfeld">
+      <form>Corner</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Cornerball</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Cornerfahne</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#statistik">
+      <form>Cornerverhältnis</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Cup</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Cupbewerb</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
+      <form>das Ding drehen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>das Ding reinmachen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>das Ergebnis verwalten</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>das Netz zappeln lassen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>das Runde ins Eckige bringen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#spiel #taktik">
+      <form>das Runde muss ins Eckige</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#abwehr">
+      <form>Defensive</form>
+      <ref type="kicktionary" target="Team/LU_1724.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Defensivfußball</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Defensivspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Defensivspielerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>den Bus parken</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Derby</form>
+      <ref type="kicktionary" target="Match/LU_1797.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Diagonalflanke</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Diagonalpass</form>
+      <ref type="kicktionary" target="Pass/LU_106.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>die Hosen anhaben</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#trainer">
+      <form>die Kabine verlieren</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwart #standard">
+      <form>die Mauer dirigieren</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spielausgang #wettbewerb">
+      <form>die Punkte entführen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spielausgang #wettbewerb">
+      <form>die Punkte mitnehmen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>die Räume eng machen</form>
+      <ref type="kicktionary" target="Tactics/LU_463.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>die Uhr herunterspielen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Direktablage</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Direktabnahme</form>
+      <ref type="kicktionary" target="Shot/LU_107.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>direkter Freistoß</form>
+      <ref type="kicktionary" target="Set_Piece/LU_1618.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>direkter Vergleich</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Direktpassspiel</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torschuss #schusstechnik">
+      <form>Distanzschuss</form>
+      <ref type="kicktionary" target="Shot/LU_109.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
+      <form>Doppelpack</form>
+      <ref type="kicktionary" target="Multiple_Goals/LU_111.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form hom="2">Doppelpass</form>
+      <ref type="kicktionary" target="Pass_Combination/LU_112.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
+      <form>Doppelschlag</form>
+      <ref type="kicktionary" target="Multiple_Goals/LU_113.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-mittelfeld #mittelfeld">
+      <form>Doppelsechs</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-mittelfeld #mittelfeld">
+      <form>Doppelsechser</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-offensiv #angriff">
+      <form>Doppelspitze</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torschuss">
+      <form>draufhalten</form>
+      <ref type="kicktionary" target="Shot/LU_114.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielausgang">
+      <form>dreckiger Sieg</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Dreierkette</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
+      <form>Dreierpack</form>
+      <ref type="kicktionary" target="Multiple_Goals/LU_115.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>dribbeln</form>
+      <ref type="kicktionary" target="Player_Move_With_Ball/LU_116.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>Dribbling</form>
+      <ref type="kicktionary" target="Player_Move_With_Ball/LU_117.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form>dritte Halbzeit</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Dropkick</form>
+      <ref type="kicktionary" target="Shot/LU_118.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>dunkelgelb</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise">
+      <form>Durchhaus</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Eckball</form>
+      <ref type="kicktionary" target="Set_Piece/LU_123.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#standard #spielfeld">
+      <form>Ecke</form>
+      <ref type="kicktionary" target="Set_Piece/LU_124.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#statistik">
+      <form>Eckenverhältnis</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Eckfahne</form>
+      <ref type="kicktionary" target="Field/LU_1738.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Eckstoß</form>
+      <ref type="kicktionary" target="Set_Piece/LU_125.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>Ehrentor</form>
+      <ref type="kicktionary" target="Goal/LU_127.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>Ehrentreffer</form>
+      <ref type="kicktionary" target="Goal/LU_128.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#eigentor">
+      <form>Eigengoal</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#eigentor">
+      <form>Eigentor</form>
+      <ref type="kicktionary" target="Own_Goal/LU_129.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>ein Leiberl haben</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss">
+      <form>ein Luftloch schlagen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise #spieler">
+      <form>eine Bank sein</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#unsportlichkeit">
+      <form>eine Schwalbe machen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf #spielerbewegung #koerperlichkeit">
+      <form>einfädeln</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#personal">
+      <form>Einlaufkind</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>einnetzen</form>
+      <ref type="kicktionary" target="Goal/LU_131.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#tor-treffer #schusstechnik">
+      <form hom="2">einnicken</form>
+      <ref type="kicktionary" target="Convert_Chance/LU_132.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf">
+      <form>Eins-gegen-eins-Situation</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Einsergoalie</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#einwechslung">
+      <form>einwechseln</form>
+      <ref type="kicktionary" target="Bring_On/LU_141.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#standard #bewegung">
+      <form>Einwurf</form>
+      <ref type="kicktionary" target="Set_Piece/LU_144.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#standard #bewegung">
+      <form>Einwurfflanke</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#mannschaft #aufstellung">
+      <form hom="1">Elf</form>
+      <ref type="kicktionary" target="Team/LU_1246.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#strafe #standard">
+      <form>Elfer</form>
+      <ref type="kicktionary" target="Set_Piece/LU_147.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Elferschießen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#strafe #standard">
+      <form>Elfmeter</form>
+      <ref type="kicktionary" target="Set_Piece/LU_148.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart #standard">
+      <form>Elfmeterkiller</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Elfmeterpunkt</form>
+      <ref type="kicktionary" target="Field/LU_1603.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Elfmeterschießen</form>
+      <ref type="kicktionary" target="Match_Temporal_Subdivision/LU_1447.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart #standard">
+      <form>Elfmetertöter</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #zweikampf">
+      <form>Ellbogencheck</form>
+      <ref type="kicktionary" target="Foul/LU_1550.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>EM-Final</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>EM-Finale</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Endspiel</form>
+      <ref type="kicktionary" target="Competition_Stage/LU_1473.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Ergebnisfußball</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Ergebnisfußballer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Ergänzungsspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Ergänzungsspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #bank">
+      <form>Ersatzbank</form>
+      <ref type="kicktionary" target="Bench/LU_1277.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Ersatzfrau</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Ersatzgoalie</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Ersatzmann</form>
+      <ref type="kicktionary" target="Player/LU_1268.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Ersatzspieler</form>
+      <ref type="kicktionary" target="Player/LU_1269.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Ersatzspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Ersatztorhüter</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Ersatztorhüterin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Ersatztorwart</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Ersatztorwartin</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #tor-geraet">
+      <form>es rappelt in der Kiste</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#personal">
+      <form>Eskortenkind</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>etw. aus der Hand geben</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #ball #tor-geraet">
+      <form>etw. im Netz zappeln lassen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>etw. sportlich nehmen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>etw. über die Runden bringen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Europameister</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Europameisterschaft</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Europapokal</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>ewiges Talent</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielausgang">
+      <form hom="2">Exploit</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form>Fahnenpass</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #spielerbewegung">
+      <form>Faller</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #spielerbewegung">
+      <form>Fallrückzieher</form>
+      <ref type="kicktionary" target="Shot/LU_166.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #taktik-spielweise">
+      <form>falsche Neun</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
+      <form>Faustabwehr</form>
+      <ref type="kicktionary" target="Save/LU_816.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Favoritenschreck</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Fehlpass</form>
+      <ref type="kicktionary" target="Bad_Pass/LU_170.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Fernduell</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Fernschuss</form>
+      <ref type="kicktionary" target="Shot/LU_172.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>Ferserl</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #spieler #koerperteil">
+      <form>Fersler</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>festspielen</form>
+    </entry>
+    <entry category="#techniken-bewegungen #spielerpositionen" aspect="#spielerbewegung #spieler">
+      <form>Filigrantechniker</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Final</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finalbegegnung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finale</form>
+      <ref type="kicktionary" target="Competition_Stage/LU_1472.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finaleinzug</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finalhinspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finalpartie</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finalrückspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Finalspiel</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torschuss #schusstechnik">
+      <form>Flachschuss</form>
+      <ref type="kicktionary" target="Shot/LU_173.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Flanke</form>
+      <ref type="kicktionary" target="Pass/LU_174.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Flatterball</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #torwart">
+      <form>Fliegenfänger</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Flugkopfball</form>
+      <ref type="kicktionary" target="Shot/LU_177.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Flügel</form>
+      <ref type="kicktionary" target="Field/LU_945.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Flügelflitzer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Flügelflitzerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Flügelposition</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise">
+      <form>Flügelspiel</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Flügelspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>Flügelspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Flügelstürmer</form>
+      <ref type="kicktionary" target="Player/LU_970.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Flügelstürmerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #taktik-spielweise">
+      <form>Flügelzange</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Forechecking</form>
+      <ref type="kicktionary" target="Tactics/LU_178.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>formatieren</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#koerperlichkeit">
+      <form>Foul</form>
+      <ref type="kicktionary" target="Foul/LU_179.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#strafe #standard">
+      <form>Foulelfmeter</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#koerperlichkeit">
+      <form>foulen</form>
+      <ref type="kicktionary" target="Foul/LU_180.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#koerperlichkeit">
+      <form>Foulspiel</form>
+      <ref type="kicktionary" target="Foul/LU_181.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>freier Raum</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-spielweise #spielerbewegung #mannschaftsbewegung">
+      <form>freispielen</form>
+      <ref type="kicktionary" target="Pass/LU_183.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>freistehend</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Freistoß</form>
+      <ref type="kicktionary" target="Set_Piece/LU_185.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#standard #vorlage">
+      <form>Freistoßflanke</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
+      <form>Freistoßspray</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#koerperlichkeit">
+      <form>Frustfoul</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>fuddeln</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Funino</form>
+    </entry>
+    <entry category="#kultur-umfeld #ausruestung-spielfeld" aspect="#ball #spiel">
+      <form>Fußball</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#spiel">
+      <form>Fußballspiel</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Fünfer</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Fünfmeterraum</form>
+      <ref type="kicktionary" target="Field/LU_905.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#ballbewegung">
+      <form>gaberln</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Gastmannschaft</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss">
+      <form>gefährliches Spiel</form>
+      <ref type="kicktionary" target="Foul/LU_194.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#mannschaftsbewegung">
+      <form>Gegenangriff</form>
+      <ref type="kicktionary" target="Move/LU_195.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Gegenpressing</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#mannschaftsbewegung">
+      <form>Gegenstoß</form>
+      <ref type="kicktionary" target="Move/LU_1711.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase #tor-treffer">
+      <form>Gegentor</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase #tor-treffer">
+      <form>Gegentreffer</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer #stadion">
+      <form>Geisterspiel</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Gelb-Rote Karte</form>
+      <ref type="kicktionary" target="Sanction/LU_197.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>gelbbelastet</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Gelbe Karte</form>
+      <ref type="kicktionary" target="Sanction/LU_199.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>gelbgesperrt</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielausgang">
+      <form>gemähte Wiese</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#unsportlichkeit">
+      <form>gestrecktes Bein</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
+      <form>Glanzparade</form>
+      <ref type="kicktionary" target="Save/LU_203.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#tor-treffer #tor-geraet">
+      <form>Goal</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Goalgetter</form>
+      <ref type="kicktionary" target="Player/LU_977.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Goalgetterin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Goalie</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Goalkeeper</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Goalkeeperin</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielbeginn-ende #tor-treffer">
+      <form>Golden Goal</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielausgang">
+      <form>goldenes Tor</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Granate</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#qualitaet">
+      <form>Grottenkick</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Grundausrichtung</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Grundlinie</form>
+      <ref type="kicktionary" target="Field/LU_987.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Gruppenspiel</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #spielerbewegung">
+      <form>Grätsche</form>
+      <ref type="kicktionary" target="Challenge/LU_595.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #spielerbewegung">
+      <form>grätschen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Grümpelturnier</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#mannschaft #qualitaet">
+      <form>Gurkentruppe</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#ballbewegung #koerperteil">
+      <form>Gurkerl</form>
+      <map corpus="regional"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #koerperteil">
+      <form>Hackentrick</form>
+      <ref type="kicktionary" target="Shot/LU_204.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#chance">
+      <form>Halbchance</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Halbfeld</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinalbegegnung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinale</form>
+      <ref type="kicktionary" target="Competition_Stage/LU_1471.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinalhinspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinalpartie</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinalrückspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Halbfinalspiel</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form hom="1">Halblinke</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>Halbposition</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld #spielerpositionen" aspect="#aufstellung #spielfeld">
+      <form>Halbraum</form>
+    </entry>
+    <entry category="#spielerpositionen"  aspect="#angriff #spieler">
+      <form hom="1">Halbrechte</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Halbvolley</form>
+      <ref type="kicktionary" target="Shot/LU_205.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Hallenplatz</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Hammer</form>
+      <ref type="kicktionary" target="Shot/LU_208.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
+      <form>Hand</form>
+      <ref type="kicktionary" target="Body_Parts/LU_1654.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#standard #koerperteil">
+      <form>Handelfer</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#standard #koerperteil">
+      <form>Handelfmeter</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
+      <form>Hands</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
+      <form>Handspiel</form>
+      <ref type="kicktionary" target="Foul/LU_209.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #zweikampf #koerperlichkeit">
+      <form>hart einsteigen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #statistik">
+      <form>Hattrick</form>
+      <ref type="kicktionary" target="Multiple_Goals/LU_210.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Hauptschiedsrichter</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Hauptschiedsrichterin</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Heber</form>
+      <ref type="kicktionary" target="Shot/LU_211.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>Hechtkopfball</form>
+      <ref type="kicktionary" target="Shot/LU_212.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#spielfeld #spielort">
+      <form>heiliger Rasen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #mannschaft">
+      <form>Heimelf</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #spielausgang">
+      <form>Heimerfolg</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #mannschaft">
+      <form>Heimmannschaft</form>
+      <ref type="kicktionary" target="Home_Game/LU_1687.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#schiedsrichter">
+      <form>Heimschiedsrichter</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #spielausgang">
+      <form>Heimschlappe</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #mannschaft">
+      <form>Heimteam</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Hereingabe</form>
+      <ref type="kicktionary" target="Pass/LU_217.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>hereinstoßen</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Hinausstellung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Hinspiel</form>
+      <ref type="kicktionary" target="Match/LU_1856.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>hoch stehen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>hoch verteidigen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Hochgeschwindigkeitsfußball</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#chance">
+      <form>Hochkaräter</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#unsportlichkeit">
+      <form>hohes Bein</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
+      <form>hohes Pressing</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld">
+      <form>Holding Six</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Hurrafußball</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>hämmern</form>
+      <ref type="kicktionary" target="Shot/LU_222.html"/>
+      <ref type="kicktionary" target="Shot_Supports/LU_223.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-offensiv #angriff #spieler">
+      <form>hängende Spitze</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#tor-treffer">
+      <form>im Kasten sein</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik #zweikampf">
+      <form>in die Zweikämpfe finden</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>in Schönheit sterben</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#standard">
+      <form>indirekter Freistoß</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Innenpfosten</form>
+      <ref type="kicktionary" target="Goal_Target/LU_1501.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Innenraumverbot</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperteil #schusstechnik">
+      <form>Innenrist</form>
+      <ref type="kicktionary" target="Body_Parts/LU_1638.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperteil #schusstechnik">
+      <form>Innenspann</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr">
+      <form>Innenverteidiger</form>
+      <ref type="kicktionary" target="Player/LU_926.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr">
+      <form>Innenverteidigerin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Innenverteidigung</form>
+      <ref type="kicktionary" target="Team/LU_1608.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>ins Leere laufen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#mannschaftsbewegung #spielphase">
+      <form>ins Rollen kommen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Instinktfußballer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Instinktfußballerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#mannschaft">
+      <form>Jausengegner</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#mannschaft #spieler #spielerbewegung">
+      <form>jmdm. bleibt das Nachsehen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>jmdm. das Gurkerl geben</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>jmdm. den Rücken freihalten</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#trick #koerperteil">
+      <form>jmdm. einen Knoten in die Beine spielen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik #eins-gegen-eins #rettung">
+      <form>jmdm. in die Parade fahren</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss">
+      <form>jmdm. vom Fuß rutschen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>jmdm., etw. seinen Stempel aufdrücken</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>jmdn. auf dem falschen Fuß erwischen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
+      <form>jmdn. auf die Reise schicken</form>
+    </entry>
+    <entry category="#spielstrategie #spielereignisse-tore" aspect="#taktik-spielweise #auswechslung">
+      <form>jmdn. aus dem Spiel nehmen</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>jmdn. des Feldes verweisen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>jmdn. in Verlegenheit bringen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>jmdn. nicht ins Spiel kommen lassen</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>jmdn. vom Feld schicken</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>jmdn. vom Platz stellen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf">
+      <form>jmdn. von den Beinen holen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>jmdn. zu Gast haben</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>jmdn. zum Duschen schicken</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>jmdn., etw. in die Zange nehmen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #taktik-spielweise">
+      <form>jmdn., etw. ins Leere laufen lassen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-offensiv">
+      <form>jmdn., etw. unter Beschuss nehmen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#einwechslung #spieler">
+      <form>Joker</form>
+      <ref type="kicktionary" target="Player/LU_1272.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#einwechslung #spieler">
+      <form>Jokerin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>K.-o.-Phase</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>K.-o.-Runde</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>kalter Schlag</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Kampf ums Leiberl</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielausgang">
+      <form>Kantersieg</form>
+      <ref type="kicktionary" target="Victory/LU_1349.html"/>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form hom="1">Kapo</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Kasten</form>
+      <ref type="kicktionary" target="Goal_Target/LU_867.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Keeper</form>
+      <ref type="kicktionary" target="Player/LU_859.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Keeperin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Keilstürmer</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>kein Leiberl haben</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Kellerderby</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Kellerduell</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss">
+      <form>Kerze</form>
+      <ref type="kicktionary" target="Defense_Shot/LU_231.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spiel">
+      <form>Kick</form>
+      <ref type="kicktionary" target="Match/LU_1851.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Kick-and-Rush</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Klassenerhalt</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spielausgang">
+      <form>Klatsche</form>
+      <ref type="kicktionary" target="Defeat/LU_232.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>klein-klein</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>klein-klein spielen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Klein-klein-Spiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>kleines Finale</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Knipser</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Knipserin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Kombinationsfußball</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>kombinationssicher</form>
+    </entry>
+    <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung">
+      <form>Konter</form>
+      <ref type="kicktionary" target="Move/LU_238.html"/>
+    </entry>
+    <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung">
+      <form>Konterangriff</form>
+      <ref type="kicktionary" target="Move/LU_239.html"/>
+    </entry>
+    <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung">
+      <form>Konterattacke</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Konterfußball</form>
+    </entry>
+    <entry category="#spielstrategie"  aspect="#taktik-spielweise">
+      <form>Konterspiel</form>
+    </entry>
+    <entry category="#spielereignisse-tore #techniken-bewegungen" aspect="#tor-treffer #mannschaftsbewegung">
+      <form>Kontertor</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Konzeptfußball</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #koerperteil">
+      <form>Kopfball</form>
+      <ref type="kicktionary" target="Shot/LU_242.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#ballbewegung">
+      <form>Kopfballaufsetzer</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf #koerperteil">
+      <form>Kopfballduell</form>
+      <ref type="kicktionary" target="One_On_One/LU_243.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle #koerperteil">
+      <form>Kopfballrückgabe</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage #koerperteil">
+      <form>Kopfballvorlage</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Kreativspiel</form>
+    </entry>
+    <entry category="#spielerpositionen #spielstrategie" aspect="#taktik-spielweise #spieler">
+      <form>Kreativspieler</form>
+    </entry>
+    <entry category="#spielerpositionen #spielstrategie" aspect="#taktik-spielweise #spieler">
+      <form>Kreativspielerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #pass">
+      <form>Kreisel</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Kreuzeck</form>
+      <ref type="kicktionary" target="Goal_Target/LU_1417.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Kullerball</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>kurze Ecke</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>kurzer Pfosten</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>kurzes Eck</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#pass #taktik-spielweise">
+      <form>Kurzpassspiel</form>
+    </entry>
+    <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#schusstechnik #tor-treffer #koerperteil">
+      <form>Köpfchen beweisen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>köpfeln</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>köpfen</form>
+      <ref type="kicktionary" target="Shot/LU_248.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>lange Ecke</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>langer Pfosten</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwartbewegung #tor-geraet">
+      <form>langes Eck</form>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#fehlschuss #tor-geraet">
+      <form>Lattenabpraller</form>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#fehlschuss #tor-geraet">
+      <form>Lattenknaller</form>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#fehlschuss #tor-geraet">
+      <form>Lattenkracher</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Lattenkreuz</form>
+      <ref type="kicktionary" target="Goal_Target/LU_832.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#tor-treffer #tor-geraet">
+      <form>Lattentreffer</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>laufenlassen</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ball">
+      <form>Leder</form>
+      <ref type="kicktionary" target="Ball/LU_779.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
+      <form>Leibchen</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
+      <form>Leiberl</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
+      <form>letzter Mann</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr #spieler">
+      <form>Libera</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr #spieler">
+      <form>Libero</form>
+      <ref type="kicktionary" target="Player/LU_930.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Linienrichter</form>
+      <ref type="kicktionary" target="Referee/LU_892.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Linienrichterin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form hom="1">Linksaußen</form>
+      <ref type="kicktionary" target="Player/LU_1301.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form hom="2">Linksaußen</form>
+      <ref type="kicktionary" target="Player/LU_1301.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Linksflanke</form>
+      <ref type="kicktionary" target="Pass/LU_251.html"/>
+    </entry>
+    <entry category="#spielerpositionen #techniken-bewegungen" aspect="#spieler #koerperteil">
+      <form>Linksfuß</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Linksverteidiger</form>
+      <ref type="kicktionary" target="Player/LU_927.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form>Linksverteidigerin</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form hom="2">Lob</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>lobben</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Lochpass</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
+      <form>Lucky Punch</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf">
+      <form>Luftduell</form>
+      <ref type="kicktionary" target="One_On_One/LU_252.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
+      <form>Luftüberlegenheit</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>lupfen</form>
+      <ref type="kicktionary" target="Shot/LU_255.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Lupfer</form>
+      <ref type="kicktionary" target="Shot/LU_256.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Manndeckung</form>
+      <ref type="kicktionary" target="Mark/LU_257.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#mannschaft #aufstellung">
+      <form>Mannschaft</form>
+      <ref type="kicktionary" target="Team/LU_1261.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#mannschaft #aufstellung">
+      <form>Mannschaftsaufstellung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spiel">
+      <form hom="1">Match</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>Matchplan</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#standard #spieler">
+      <form>Mauer</form>
+      <ref type="kicktionary" target="Set_Piece/LU_885.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>mauern</form>
+      <ref type="kicktionary" target="Tactics/LU_258.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>mit Haken und Ösen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>mit jmdm. ist nicht gut Kirschen essen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
+      <form>Mittelfeldmotor</form>
+      <ref type="kicktionary" target="Player/LU_1624.html"/>
+    </entry>
+    <entry category="#spielstrategie #spielerpositionen" aspect="#taktik-mittelfeld #mittelfeld">
+      <form>Mittelfeldraute</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
+      <form>Mittelfeldspieler</form>
+      <ref type="kicktionary" target="Player/LU_953.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
+      <form>Mittelfeldspielerin</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Mittelkreis</form>
+      <ref type="kicktionary" target="Field/LU_931.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Mittellinie</form>
+      <ref type="kicktionary" target="Field/LU_981.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Mittelstürmer</form>
+      <ref type="kicktionary" target="Player/LU_969.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Mittelstürmerin</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#bewegung">
+      <form>Move</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ball">
+      <form hom="1">Murmel</form>
+    </entry>
+    <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung #taktik-spielweise">
+      <form>nach vorn spielen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf">
+      <form>nachhaken</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torschuss">
+      <form>Nachschuss</form>
+      <ref type="kicktionary" target="Follow_Up/LU_266.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>nachspielen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Nachspielzeit</form>
+      <ref type="kicktionary" target="Match_Temporal_Subdivision/LU_1327.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Nachtragsspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe #kultur-umfeld" aspect="#mannschaft #wettbewerb">
+      <form>Nati</form>
+    </entry>
+    <entry category="#spielerpositionen #kultur-umfeld" aspect="#trainer #wettbewerb">
+      <form>Nationaltrainer</form>
+    </entry>
+    <entry category="#spielerpositionen #kultur-umfeld" aspect="#trainer #wettbewerb">
+      <form>Nationaltrainerin</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>nicht zu verteidigen sein</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>nichts anbrennen lassen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#unsportlichkeit">
+      <form>Nickligkeit</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>No-Look-Pass</form>
+    </entry>
+    <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#taktik-defensiv #abwehr">
+      <form>Notabwehr</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#koerperlichkeit">
+      <form>Notbremse</form>
+      <ref type="kicktionary" target="Foul/LU_273.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Notelf</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#angriff #taktik-offensiv">
+      <form>Offensive</form>
+      <ref type="kicktionary" target="Team/LU_1723.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-offensiv">
+      <form>Offensivfußball</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form>offside</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#abseits">
+      <form>Offside</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#pass">
+      <form>öffnender Pass</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
+      <form>On-Field-Review</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#kontrolle #taktik-spielweise">
+      <form>One-Touch-Fußball</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#spielfeld #aus">
+      <form>Out</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#spielfeld #aus">
+      <form>out</form>
+    </entry>
+    <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#standard #bewegung">
+      <form>Outeinwurf</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Outwachler</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Overtime</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#spielausgang #taktik-spielweise">
+      <form>panieren</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid #spielerbewegung">
+      <form>passive Abseitsstellung</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid #spielerbewegung">
+      <form>passives Abseits</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Passstafette</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Pausentee</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #spielausgang">
+      <form>Pflichtspielerfolg</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #spielausgang">
+      <form>Pflichtspielsieg</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#wettbewerb #tor-treffer">
+      <form>Pflichtspieltor</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Pfosten</form>
+      <ref type="kicktionary" target="Goal_Target/LU_834.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#fehlschuss #tor-geraet">
+      <form>Pfostentreffer</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #wettbewerbsplatzierung">
+      <form>Pokal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="wettbewerbsphase">
+      <form>Pokalfinal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="wettbewerbsphase">
+      <form>Pokalfinale</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Pokalwettbewerb</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>positionsgetreu</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins #ball #ballbewegung">
+      <form>Pressball</form>
+      <ref type="kicktionary" target="One_On_One/LU_290.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Pressing</form>
+      <ref type="kicktionary" target="Tactics/LU_291.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Pressingopfer</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins #ball #ballbewegung">
+      <form>Pressschlag</form>
+      <ref type="kicktionary" target="One_On_One/LU_292.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #mannschaft">
+      <form>Profimannschaft</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Präzisionsschuss</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form>Public Viewing</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Querbalken</form>
+      <ref type="kicktionary" target="Goal_Target/LU_1291.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Querlatte</form>
+      <ref type="kicktionary" target="Goal_Target/LU_827.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Querpass</form>
+      <ref type="kicktionary" target="Pass/LU_294.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss #ballbewegung">
+      <form>Querschläger</form>
+      <ref type="kicktionary" target="Defense_Shot/LU_295.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>Rasenschach</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Raumdeckung</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #taktik">
+      <form>Raumdeuter</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-mittelfeld #mittelfeld">
+      <form>Raute</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form hom="1">Rechtsaußen</form>
+      <ref type="kicktionary" target="Player/LU_1302.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form hom="2">Rechtsaußen</form>
+      <ref type="kicktionary" target="Player/LU_1302.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Rechtsflanke</form>
+      <ref type="kicktionary" target="Pass/LU_298.html"/>
+    </entry>
+    <entry category="#spielerpositionen #techniken-bewegungen" aspect="#spieler #koerperteil">
+      <form>Rechtsfuß</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form hom="1">Rechtsverteidiger</form>
+      <ref type="kicktionary" target="Player/LU_928.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#abwehr">
+      <form hom="1">Rechtsverteidigerin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Referee</form>
+      <ref type="kicktionary" target="Referee/LU_893.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>reinlassen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>reinstoßen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Relegation</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #mannschaft">
+      <form>Rendement</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler #bank">
+      <form>Reservetorwart</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#spieler #bank">
+      <form>Reservist</form>
+      <ref type="kicktionary" target="Player/LU_1273.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#spieler #bank">
+      <form>Reservistin</form>
+    </entry>
+    <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#koerperlichkeit #spielerbewegung">
+      <form>Revanchefoul</form>
+      <ref type="kicktionary" target="Foul/LU_304.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
+      <form>Rote Karte</form>
+      <ref type="kicktionary" target="Sanction/LU_308.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#regelverstoss #mannschaftsbewegung">
+      <form>Rudelbildung</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #techniken-bewegungen" aspect="#ballbewegung #standard">
+      <form>ruhender Ball</form>
+      <ref type="kicktionary" target="Set_Piece/LU_309.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#qualitaet #taktik-spielweise">
+      <form>Rumpelfußball</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Rumpfelf</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Rumpfteam</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Rückgabe</form>
+      <ref type="kicktionary" target="Pass_Back/LU_310.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>Rückpass</form>
+      <ref type="kicktionary" target="Pass_Back/LU_311.html"/>
+      <ref type="kicktionary" target="Pass/LU_312.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Rückspiel</form>
+      <ref type="kicktionary" target="Match/LU_1857.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>Scherenschlag</form>
+      <ref type="kicktionary" target="Shot/LU_314.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schiedsrichter</form>
+      <ref type="kicktionary" target="Referee/LU_889.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schiedsrichterassistent</form>
+      <ref type="kicktionary" target="Referee/LU_891.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schiedsrichterassistentin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schiedsrichterin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schiri</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#qualitaet">
+      <form>Schlafwagenfußball</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form hom="2">schlenzen</form>
+      <ref type="kicktionary" target="Shot/LU_322.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Schlenzer</form>
+      <ref type="kicktionary" target="Shot/LU_323.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Schlussfrau</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Schlusslicht</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Schlussmann</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielausgang">
+      <form>Schlusspointe</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Schlüsselszene</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielausgang #qualitaet">
+      <form>schmutziger Sieg</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Schnittstellenpass</form>
+    </entry>
+    <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#unsportlichkeit #spielerbewegung">
+      <form>Schwalbe</form>
+      <ref type="kicktionary" target="Simulation/LU_325.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Schwarzkittel</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
+      <form>Sechser</form>
+    </entry>
+    <entry category="#spielereignisse-tore #spielformen-wettbewerbe" aspect="tor-treffer #wettbewerbsphase">
+      <form>Sechserpack</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Sechspunktespiel</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Sechzehner</form>
+      <ref type="kicktionary" target="Field/LU_907.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Sechzehnmeterraum</form>
+      <ref type="kicktionary" target="Field/LU_1868.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Sechzehntelfinal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Sechzehntelfinale</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>sein Spiel aufziehen</form>
+    </entry>
+    <entry category="#spielerpositionen #spielstrategie" aspect="#taktik-defensiv #torwart #tor-geraet">
+      <form>seinen Kasten sauber halten</form>
+    </entry>
+    <entry category="ausruestung-spielfeld" aspect="#aus #spielfeld">
+      <form>Seitenaus</form>
+      <ref type="kicktionary" target="Field/LU_980.html"/>
+    </entry>
+    <entry category="techniken-bewegungen" aspect="#standard #spielfeld">
+      <form>Seiteneinwurf</form>
+    </entry>
+    <entry category="ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Seitenlinie</form>
+      <ref type="kicktionary" target="Field/LU_982.html"/>
+    </entry>
+    <entry category="ausruestung-spielfeld" aspect="#aus #spielfeld">
+      <form>Seitenout</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Seitfallzieher</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Semifinale</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>sich auf dem Vormarsch befinden</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>sich hinten reinstellen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #qualitaet">
+      <form>sich in einen Rausch spielen</form>
+    </entry>
+    <entry category="#spielstrategie #techniken-bewegungen" aspect="#taktik #spielerbewegung #mannschaftsbewegung">
+      <form>sich zurückfallen lassen</form>
+      <ref type="kicktionary" target="Player_Move/LU_351.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>Sicherheitsfußball</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Siegertitel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#tor-treffer #spielphase #wettbewerb">
+      <form>Silver Goal</form>
+    </entry>
+    <entry category="#spielereignisse-tore #spielformen-wettbewerbe" aspect="tor-treffer #wettbewerbsphase">
+      <form>Sixpack</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>Solo</form>
+      <ref type="kicktionary" target="Player_Move_With_Ball/LU_353.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #spielstrategie" aspect="#spielerbewegung #taktik-spielweise">
+      <form>Sommerfußball</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Sonntagsschuss</form>
+      <ref type="kicktionary" target="Shot/LU_1884.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
+      <form>Spann</form>
+      <ref type="kicktionary" target="Body_Parts/LU_1639.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #qualitaet">
+      <form>Spiel auf ein Tor</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler">
+      <form>Spieler</form>
+      <ref type="kicktionary" target="Player/LU_1048.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler">
+      <form>Spielerin</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#qualitaet #spieler #mannschaft">
+      <form>Spielermaterial</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe #schiedsrichterwesen-regeln" aspect="#strafe #wettbewerb">
+      <form>Spielersperre</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#stadion">
+      <form>Spielertunnel</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #aufstellung">
+      <form>Spielführer</form>
+      <ref type="kicktionary" target="Player/LU_1168.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #aufstellung">
+      <form>Spielführerin</form>
+    </entry>
+    <entry category="ausruestung-spielfeld" aspect="#ball">
+      <form>Spielgerät</form>
+      <ref type="kicktionary" target="Ball/LU_814.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise #spieler">
+      <form>Spielgestalter</form>
+      <ref type="kicktionary" target="Player/LU_960.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise #spieler">
+      <form>Spielgestalterin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise #spieler">
+      <form>Spielmacher</form>
+      <ref type="kicktionary" target="Player/LU_954.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise #spieler">
+      <form>Spielmacherin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe #schiedsrichterwesen-regeln" aspect="#strafe #wettbewerb">
+      <form>Spielsperre</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>Spielsystem</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielphase">
+      <form>Spielszene</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
+      <form>Spielverlagerung</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form hom="2">spitzeln</form>
+      <ref type="kicktionary" target="Shot/LU_361.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Spitzenreiter</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>spitzer Winkel</form>
+      <ref type="kicktionary" target="Ball_And_Goal/LU_1756.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Stammgoalie</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung #spieler">
+      <form>Stammspieler</form>
+      <ref type="kicktionary" target="Player/LU_1809.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung #spieler">
+      <form>Stammspielerin</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Stammtorhüter</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Stammtorhüterin</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Stammtorwart</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Standard</form>
+      <ref type="kicktionary" target="Set_Piece/LU_365.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#standard">
+      <form>Standardsituation</form>
+      <ref type="kicktionary" target="Set_Piece/LU_366.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Stanglpass</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Startelf</form>
+      <ref type="kicktionary" target="Team/LU_1628.html"/>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
+      <form>Startformation</form>
+      <ref type="kicktionary" target="Team/LU_1629.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Steckpass</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>steilgehen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Steilpass</form>
+      <ref type="kicktionary" target="Pass/LU_370.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
+      <form>steilschicken</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Steilvorlage</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Stoßstürmer</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Stoßstürmerin</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Strafraum</form>
+      <ref type="kicktionary" target="Field/LU_904.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen #ausruestung-spielfeld" aspect="#taktik-defensiv #torwartbewegung #spielfeld">
+      <form>Strafraumbeherrschung</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Strafraumgrenze</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Strafraumlinie</form>
+      <ref type="kicktionary" target="Field/LU_988.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Strafraumspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Strafraumspielerin</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#spielfeld #spielphase">
+      <form>Strafraumszene</form>
+    </entry>
+    <entry category="#spielereignisse-tore #schiedsrichterwesen-regeln" aspect="#strafe #torschuss">
+      <form>Strafstoß</form>
+      <ref type="kicktionary" target="Set_Piece/LU_375.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff">
+      <form>Sturm</form>
+      <ref type="kicktionary" target="Team/LU_1363.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#zweikampf">
+      <form>Tackling</form>
+      <ref type="kicktionary" target="Challenge/LU_596.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Tempofußball</form>
+    </entry>
+    <entry category="#spielereignisse-tore #spielstrategie" aspect="#taktik-spielweise">
+      <form>Tempogegenstoß</form>
+      <ref type="kicktionary" target="Move/LU_1712.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>tief stehen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-defensiv">
+      <form>tief verteidigen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Tiki-Taka</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Titel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Todesgruppe</form>
+    </entry>
+    <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#tor-treffer #tor-geraet">
+      <form hom="1">Tor</form>
+      <ref type="kicktionary" target="Goal/LU_381.html"/>
+      <ref type="kicktionary" target="Goal_Target/LU_865.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#torschuss #tor-treffer">
+      <form>Torabschluss</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Toraus</form>
+      <ref type="kicktionary" target="Field/LU_979.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Torauslinie</form>
+      <ref type="kicktionary" target="Field/LU_983.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#chance">
+      <form>Torchance</form>
+      <ref type="kicktionary" target="Chance/LU_382.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #qualitaet">
+      <form>Torfestival</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Torfrau</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#chance">
+      <form>Torgelegenheit</form>
+      <ref type="kicktionary" target="Chance/LU_383.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Torhüter</form>
+      <ref type="kicktionary" target="Player/LU_857.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Torhüterin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#statistik">
+      <form>Torkonto</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Torlinie</form>
+      <ref type="kicktionary" target="Field/LU_984.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Tormann</form>
+    </entry>
+    <entry category="#spielerpositionen #spielereignisse-tore" aspect="#spieler #tor-treffer">
+      <form>Tormaschine</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#chance">
+      <form>Tormöglichkeit</form>
+      <ref type="kicktionary" target="Chance/LU_384.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Torout</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Torpfosten</form>
+      <ref type="kicktionary" target="Goal_Target/LU_1500.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>Torraum</form>
+      <ref type="kicktionary" target="Field/LU_906.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #qualitaet">
+      <form>Torriecher</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#torschuss">
+      <form>Torschuss</form>
+      <ref type="kicktionary" target="Shot/LU_385.html"/>
+    </entry>
+    <entry category="#spielerpositionen #spielereignisse-tore" aspect="#spieler #tor-treffer">
+      <form>Torschütze</form>
+      <ref type="kicktionary" target="Goal/LU_1916.html"/>
+    </entry>
+    <entry category="#spielerpositionen #spielereignisse-tore" aspect="#spieler #tor-treffer">
+      <form>Torschützin</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#vorlage">
+      <form>Torvorlage</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Torwart</form>
+      <ref type="kicktionary" target="Player/LU_856.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet #torwartbewegung">
+      <form>Torwarteck</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet #torwartbewegung">
+      <form>Torwartecke</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
+      <form>Torwartin</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer #qualitaet">
+      <form>Traumtor</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Trennstrich</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
+      <form>Trikot</form>
+      <ref type="kicktionary" target="Equipment/LU_1760.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
+      <form>Trikottausch</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#eins-gegen-eins">
+      <form>Trikotzupfen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Tschütteler</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #trick #koerperteil">
+      <form>tunneln</form>
+      <ref type="kicktionary" target="Beat/LU_391.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#mannschaft #wettbewerbsplatzierung">
+      <form>Turnierfavorit</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#mannschaft #wettbewerbsplatzierung">
+      <form>Turnierfavoritin</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#mannschaft #wettbewerbsplatzierung">
+      <form>Turniermannschaft</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln #spielereignisse-tore" aspect="#unsportlichkeit">
+      <form>Tätlichkeit</form>
+      <ref type="kicktionary" target="Foul/LU_392.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>überlupfen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Überraschungsmannschaft</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>Überraschungsteam</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #trick">
+      <form>Übersteiger</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>UEFA-Cup-Finale</form>
+    </entry>
+    <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#spieler #entwicklung">
+      <form>um sein Leiberl rennen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#trick #spielerbewegung">
+      <form>umdribbeln</form>
+      <ref type="kicktionary" target="Beat/LU_393.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
+      <form>Umkehrspiel</form>
+    </entry>
+    <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#spieler #entwicklung">
+      <form>ums Leiberl kämpfen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
+      <form>Umschaltfußball</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
+      <form>Umschaltspiel</form>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
+      <form>unbespielbar</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#entwicklung #wettbewerb">
+      <form>Underdog</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#taktik-spielweise">
+      <form>ungedeckt</form>
+      <ref type="kicktionary" target="Being_Free/LU_399.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Unparteiische</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>unter Beschuss geraten</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>unter Beschuss kommen</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik">
+      <form>unter Beschuss stehen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #qualitaet">
+      <form>Unterschiedsspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #qualitaet">
+      <form>Unterschiedsspielerin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>VAR</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>VAR-Assistent</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss">
+      <form>verdaddeln</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik #trick">
+      <form>verladen</form>
+      <ref type="kicktionary" target="Beat/LU_407.html"/>
+      <ref type="kicktionary" target="Overcome_Goalkeeper/LU_1371.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#fehlschuss">
+      <form hom="1">verschießen</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>versenken</form>
+      <ref type="kicktionary" target="Goal/LU_498.html"/>
+    </entry>
+    <entry category="spielereignisse-tore" aspect="#fehlschuss #torwartbewegung">
+      <form>verspringen</form>
+      <ref type="kicktionary" target="Ball_Escape/LU_415.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #spieler">
+      <form>Verteidiger</form>
+      <ref type="kicktionary" target="Player/LU_924.html"/>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #spieler">
+      <form>Verteidigerin</form>
+    </entry>
+    <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #taktik-defensiv">
+      <form>Verteidigung</form>
+      <ref type="kicktionary" target="Team/LU_1353.html"/>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>Vertikalfußball</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#pass">
+      <form>Vertikalpass</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#kontrolle">
+      <form>vertändeln</form>
+      <ref type="kicktionary" target="Lose_Ball/LU_419.html"/>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>verwandeln</form>
+      <ref type="kicktionary" target="Convert_Chance/LU_420.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Video-Schiedsrichterassistent</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Video-Schiedsrichterassistentin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Videoassistent</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Videoassistentin</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
+      <form>Videobeweis</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Videoschiedsrichter</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>Videoschiedsrichterin</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung #spielerpositionen #spielstrategie" aspect="#taktik-defensiv #taktik-offensiv #abwehr #angriff">
+      <form>Viererblock</form>
+    </entry>
+    <entry category="#mannschaftsstruktur-aufstellung #spielerpositionen #spielstrategie" aspect="#taktik-defensiv #taktik-offensiv #abwehr #angriff">
+      <form>Viererkette</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
+      <form>vierte Offizielle</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinal</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinalbegegnung</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinale</form>
+      <ref type="kicktionary" target="Competition_Stage/LU_1470.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinalhinspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinalpartie</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinalrückspiel</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
+      <form>Viertelfinalspiel</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Volleykracher</form>
+      <ref type="kicktionary" target="Shot/LU_426.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>Volleyschuss</form>
+      <ref type="kicktionary" target="Shot/LU_427.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#torwartbewegung #spielerbewegung">
+      <form>von der Linie kratzen</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
+      <form>vor dem Aus stehen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss #schusstechnik #koerperteil">
+      <form>vorbeiköpfeln</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss #schusstechnik #koerperteil">
+      <form>vorbeiköpfen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#fehlschuss #schusstechnik">
+      <form>vorbeispitzeln</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#vorlage #spieler">
+      <form>Vorbereiter</form>
+      <ref type="kicktionary" target="Prepare_Goal/LU_773.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#vorlage #spieler">
+      <form>Vorbereiterin</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr #spieler">
+      <form>Vorderfrau</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr">
+      <form>Vorderleute</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler #abwehr #spieler">
+      <form>Vordermann</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#vorlage">
+      <form>Vorlage</form>
+      <ref type="kicktionary" target="Pass/LU_431.html"/>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#vorlage #spieler">
+      <form>Vorlagengeber</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#vorteil">
+      <form>Vorteil</form>
+      <ref type="kicktionary" target="Advantage/LU_681.html"/>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
+      <form>wacheln</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#spieler">
+      <form>Wadenbeißer</form>
+    </entry>
+    <entry category="#schiedsrichterwesen-regeln" aspect="#wechsel #regelverstoss">
+      <form>Wechselfehler</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>wegchippen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schuss">
+      <form>Weitschuss</form>
+      <ref type="kicktionary" target="Shot/LU_439.html"/>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
+      <form>Weltmeisterschaft</form>
+    </entry>
+    <entry category="#spielformen-wettbewerbe" aspect="#spielphase">
+      <form>Wiederanpfiff</form>
+      <ref type="kicktionary" target="Start_End_Match/LU_1786.html"/>
+    </entry>
+    <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
+      <form>Wuchtel</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#spielerbewegung #ballbewegung">
+      <form>zangeln</form>
+    </entry>
+    <entry category="#techniken-bewegungen #spielerpositionen" aspect="#spielerbewegung #ballbewegung #spieler">
+      <form>Zangler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
+      <form hom="1">Zehner</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise #spielphase">
+      <form>Zeit von der Uhr nehmen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Zielspieler</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#angriff #spieler">
+      <form>Zielspielerin</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schusstechnik">
+      <form>zirkeln</form>
+      <ref type="kicktionary" target="Shot/LU_442.html"/>
+      <ref type="kicktionary" target="Shot_Supports/LU_443.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Zuckerpass</form>
+    </entry>
+    <entry category="#spielereignisse-tore" aspect="#tor-treffer">
+      <form>zum Abschluss kommen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>zupassen</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#schuss">
+      <form>zurückschießen</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form>Zuschauermagnet</form>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>Zuspiel</form>
+      <ref type="kicktionary" target="Pass/LU_451.html"/>
+    </entry>
+    <entry category="#techniken-bewegungen" aspect="#pass">
+      <form>zuspielen</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#torwart">
+      <form>Zweiergoalie</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#zweikampf">
+      <form>Zweikampfstärke</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>zweite Reihe</form>
+    </entry>
+    <entry category="#spielerpositionen" aspect="#aufstellung">
+      <form>zweiter Anzug</form>
+    </entry>
+    <entry category="#spielstrategie" aspect="#taktik-spielweise">
+      <form>zweiter Ball</form>
+    </entry>
+    <entry category="#kultur-umfeld" aspect="#zuschauer">
+      <form>zwölfter Mann</form>
+    </entry>
+  </entries>
+</glossar>
