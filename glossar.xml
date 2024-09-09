@@ -440,6 +440,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
       <form>aus dem Winkel fischen</form>
+      <form>aus dem Torwinkel fischen</form>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
       <form>Ausgleich</form>
@@ -447,10 +448,12 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
       <form>Ausgleichstor</form>
+      <form>Ausgleichtor</form>
       <ref type="kicktionary" target="Goal/LU_70.html"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
       <form>Ausgleichstreffer</form>
+      <form>Ausgleichtreffer</form>
       <ref type="kicktionary" target="Goal/LU_71.html"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
@@ -568,6 +571,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler #bank">
       <form>Bankerldrücker</form>
+      <form>Bankerldrucker</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#vorlage">
       <form>bedienen</form>
@@ -634,6 +638,8 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Champions League</form>
+      <form>Championsleague</form>
+      <form>Champions-League</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
       <form>Champions-League-Final</form>
@@ -652,9 +658,15 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#trainer">
       <form>Co-Trainer</form>
+      <form>Cotrainer</form>
+      <form>Ko-Trainer</form>
+      <form>Kotrainer</form>
     </entry>
     <entry category="#kultur-umfeld" aspect="#trainer">
       <form>Co-Trainerin</form>
+      <form>Cotrainerin</form>
+      <form>Ko-Trainerin</form>
+      <form>Kotrainerin</form>
     </entry>
     <entry category="#kultur-umfeld" aspect="#trainer">
       <form hom="1">Coach</form>
@@ -714,6 +726,8 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>den Bus parken</form>
+      <form>den Bus vor dem Tor parken</form>
+      <form>den Bus vor dem eigenen Tor parken</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Derby</form>
@@ -764,6 +778,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#kontrolle">
       <form>Direktpassspiel</form>
+      <form>Direktpass-Spiel</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torschuss #schusstechnik">
       <form>Distanzschuss</form>
@@ -854,6 +869,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#eigentor">
       <form>Eigengoal</form>
+      <map corpus="regional"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#eigentor">
       <form>Eigentor</form>
@@ -870,6 +886,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#unsportlichkeit">
       <form>eine Schwalbe machen</form>
+      <form>die Schwalbe machen</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#zweikampf #spielerbewegung #koerperlichkeit">
       <form>einfädeln</form>
@@ -933,6 +950,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #zweikampf">
       <form>Ellbogencheck</form>
+      <form>Ellenbogencheck</form>
       <ref type="kicktionary" target="Foul/LU_1550.html"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
@@ -995,6 +1013,7 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#personal">
       <form>Eskortenkind</form>
+      <form>Eskortkind</form>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielphase">
       <form>etw. aus der Hand geben</form>
@@ -1035,6 +1054,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#angriff #taktik-spielweise">
       <form>falsche Neun</form>
+      <form>falscher Neuner</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
       <form>Faustabwehr</form>
@@ -1168,10 +1188,12 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#taktik-spielweise #spielerbewegung #mannschaftsbewegung">
       <form>freispielen</form>
+      <form>frei spielen</form>
       <ref type="kicktionary" target="Pass/LU_183.html"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>freistehend</form>
+      <form>frei stehend</form>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#standard">
       <form>Freistoß</form>
@@ -1185,12 +1207,14 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#koerperlichkeit">
       <form>Frustfoul</form>
+      <form>Frust-Foul</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>fuddeln</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Funino</form>
+      <form>Funiño</form>
     </entry>
     <entry category="#kultur-umfeld #ausruestung-spielfeld" aspect="#ball #spiel">
       <form>Fußball</form>
@@ -1203,6 +1227,8 @@
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Fünfmeterraum</form>
+      <form>Fünf-Meter-Raum</form>
+      <form>5-Meter-Raum</form>
       <ref type="kicktionary" target="Field/LU_905.html"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#ballbewegung">
@@ -1210,6 +1236,7 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Gastmannschaft</form>
+      <form>Gästemannschaft</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss">
       <form>gefährliches Spiel</form>
@@ -1237,6 +1264,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
       <form>Gelb-Rote Karte</form>
+      <form>gelb-rote Karte</form>
       <ref type="kicktionary" target="Sanction/LU_197.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
@@ -1244,6 +1272,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
       <form>Gelbe Karte</form>
+      <form>gelbe Karte</form>
       <ref type="kicktionary" target="Sanction/LU_199.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
@@ -1251,6 +1280,8 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielausgang">
       <form>gemähte Wiese</form>
+      <form>gmahte Wiesen</form>
+      <form>gmahte Wiesn</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#unsportlichkeit">
       <form>gestrecktes Bein</form>
@@ -1271,6 +1302,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
       <form>Goalie</form>
+      <map/>
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
       <form>Goalkeeper</form>
@@ -1309,6 +1341,7 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Grümpelturnier</form>
+      <form>Gerümpelturnier</form>
     </entry>
     <entry category="#mannschaftsstruktur-aufstellung" aspect="#mannschaft #qualitaet">
       <form>Gurkentruppe</form>
@@ -1320,6 +1353,7 @@
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung #koerperteil">
       <form>Hackentrick</form>
       <ref type="kicktionary" target="Shot/LU_204.html"/>
+      <map/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#chance">
       <form>Halbchance</form>
@@ -1378,6 +1412,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#standard #koerperteil">
       <form>Handelfer</form>
+      <form>Handselfer</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#standard #koerperteil">
       <form>Handelfmeter</form>
@@ -1469,6 +1504,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Hurrafußball</form>
+      <form>Hurra-Fußball</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>hämmern</form>
@@ -1535,9 +1571,12 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
       <form>jmdm. das Gurkerl geben</form>
+      <form>jmdm. ein Gurkerl geben</form>
+      <form>jmdm. die Gurke geben</form>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik">
       <form>jmdm. den Rücken freihalten</form>
+      <form>jmdm. den Rücken frei halten</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#trick #koerperteil">
       <form>jmdm. einen Knoten in die Beine spielen</form>
@@ -1553,6 +1592,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik">
       <form>jmdn. auf dem falschen Fuß erwischen</form>
+      <form>jmdn. am falschen Fuß erwischen</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
       <form>jmdn. auf die Reise schicken</form>
@@ -1611,6 +1651,7 @@
     </entry>
     <entry category="#mannschaftsstruktur-aufstellung" aspect="#aufstellung">
       <form>Kampf ums Leiberl</form>
+      <form>Kampf um das Leiberl</form>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielausgang">
       <form>Kantersieg</form>
@@ -1618,6 +1659,7 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#zuschauer">
       <form hom="1">Kapo</form>
+      <form>Capo</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>Kasten</form>
@@ -1652,6 +1694,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Kick-and-Rush</form>
+      <form>Kick-and-rush</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>Klassenerhalt</form>
@@ -1754,12 +1797,14 @@
     </entry>
     <entry category="#spielstrategie" aspect="#pass #taktik-spielweise">
       <form>Kurzpassspiel</form>
+      <form>Kurzpass-Spiel</form>
     </entry>
     <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#schusstechnik #tor-treffer #koerperteil">
       <form>Köpfchen beweisen</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
       <form>köpfeln</form>
+      <map/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
       <form>köpfen</form>
@@ -1792,6 +1837,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>laufenlassen</form>
+      <form>laufen lassen</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#ball">
       <form>Leder</form>
@@ -1937,6 +1983,7 @@
     </entry>
     <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung #taktik-spielweise">
       <form>nach vorn spielen</form>
+      <form>nach vorne spielen</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#zweikampf">
       <form>nachhaken</form>
@@ -1972,9 +2019,11 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#unsportlichkeit">
       <form>Nickligkeit</form>
+      <form>Nickeligkeit</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#pass">
       <form>No-Look-Pass</form>
+      <form>No-look-Pass</form>
     </entry>
     <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#taktik-defensiv #abwehr">
       <form>Notabwehr</form>
@@ -2016,6 +2065,7 @@
     </entry>
     <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#standard #bewegung">
       <form>Outeinwurf</form>
+      <form>Out-Einwurf</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Outwachler</form>
@@ -2034,6 +2084,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#kontrolle">
       <form>Passstafette</form>
+      <form>Pass-Stafette</form>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielphase">
       <form>Pausentee</form>
@@ -2082,7 +2133,9 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins #ball #ballbewegung">
       <form>Pressschlag</form>
+      <form>Press-Schlag</form>
       <ref type="kicktionary" target="One_On_One/LU_292.html"/>
+      <map/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb #mannschaft">
       <form>Profimannschaft</form>
@@ -2175,6 +2228,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
       <form>Rote Karte</form>
+      <form>rote Karte</form>
       <ref type="kicktionary" target="Sanction/LU_308.html"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#regelverstoss #mannschaftsbewegung">
@@ -2216,10 +2270,12 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Schiedsrichterassistent</form>
+      <form>Schiedsrichter-Assistent</form>
       <ref type="kicktionary" target="Referee/LU_891.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Schiedsrichterassistentin</form>
+      <form>Schiedsrichter-Assistentin</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Schiedsrichterin</form>
@@ -2274,6 +2330,8 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
       <form>Sechspunktespiel</form>
+      <form>Sechs-Punkte-Spiel</form>
+      <form>6-Punkte-Spiel</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Sechzehner</form>
@@ -2281,6 +2339,7 @@
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Sechzehnmeterraum</form>
+      <form>16-Meter-Raum</form>
       <ref type="kicktionary" target="Field/LU_1868.html"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
@@ -2294,6 +2353,8 @@
     </entry>
     <entry category="#spielerpositionen #spielstrategie" aspect="#taktik-defensiv #torwart #tor-geraet">
       <form>seinen Kasten sauber halten</form>
+      <form>den Kasten sauber halten</form>
+      <form>den eigenen Kasten sauber halten</form>
     </entry>
     <entry category="ausruestung-spielfeld" aspect="#aus #spielfeld">
       <form>Seitenaus</form>
@@ -2308,6 +2369,7 @@
     </entry>
     <entry category="ausruestung-spielfeld" aspect="#aus #spielfeld">
       <form>Seitenout</form>
+      <form>Seiten-Out</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>Seitfallzieher</form>
@@ -2373,6 +2435,7 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#stadion">
       <form>Spielertunnel</form>
+      <form>Spielertunell</form>
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler #aufstellung">
       <form>Spielführer</form>
@@ -2532,6 +2595,8 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Tiki-Taka</form>
+      <form>Tikitaka</form>
+      <form>Tiqui-Taca</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>Titel</form>
@@ -2561,6 +2626,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #qualitaet">
       <form>Torfestival</form>
+      <form>Torefestival</form>
     </entry>
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
       <form>Torfrau</form>
@@ -2578,6 +2644,7 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#statistik">
       <form>Torkonto</form>
+      <form>Torekonto</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Torlinie</form>
@@ -2595,6 +2662,7 @@
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Torout</form>
+      <form>Tor-Out</form>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>Torpfosten</form>
@@ -2624,6 +2692,7 @@
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#torwart #spieler">
       <form>Torwart</form>
       <ref type="kicktionary" target="Player/LU_856.html"/>
+      <map/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet #torwartbewegung">
       <form>Torwarteck</form>
@@ -2687,6 +2756,7 @@
     </entry>
     <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#spieler #entwicklung">
       <form>um sein Leiberl rennen</form>
+      <form>um das Leiberl rennen</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#trick #spielerbewegung">
       <form>umdribbeln</form>
@@ -2697,6 +2767,7 @@
     </entry>
     <entry category="#spielstrategie #mannschaftsstruktur-aufstellung" aspect="#spieler #entwicklung">
       <form>ums Leiberl kämpfen</form>
+      <form>um sein Leiberl kämpfen</form>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
       <form>Umschaltfußball</form>
@@ -2784,15 +2855,19 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Video-Schiedsrichterassistent</form>
+      <form>Videoschiedsrichterassistent</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Video-Schiedsrichterassistentin</form>
+      <form>Videoschiedsrichterassistentin</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Videoassistent</form>
+      <form>Video-Assistent</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Videoassistentin</form>
+      <form>Video-Assistentin</form>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
       <form>Videobeweis</form>
@@ -2811,6 +2886,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>vierte Offizielle</form>
+      <form>Vierte Offizielle</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
       <form>Viertelfinal</form>
@@ -2844,6 +2920,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torwartbewegung #spielerbewegung">
       <form>von der Linie kratzen</form>
+      <form>von der Torlinie kratzen</form>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>vor dem Aus stehen</form>
@@ -2909,6 +2986,7 @@
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#ball">
       <form>Wuchtel</form>
+      <form>Wuchtl</form>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung #ballbewegung">
       <form>zangeln</form>

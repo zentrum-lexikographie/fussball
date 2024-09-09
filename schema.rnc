@@ -30,7 +30,7 @@ entries = element entries {
 entry = element entry {
   attribute category { list { xsd:anyURI* } },
   attribute aspect { list { xsd:anyURI* } },
-  form,
+  form+,
   ref*,
   map?
 }
