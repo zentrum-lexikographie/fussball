@@ -30,9 +30,13 @@ entries = element entries {
 entry = element entry {
   attribute category { list { xsd:anyURI* } },
   attribute aspect { list { xsd:anyURI* } },
-  form+,
-  ref*,
-  map?
+  (
+    form+
+  & ref*
+  & query*
+  & map?
+  & plot?
+  )
 }
 
 form = element form {
@@ -45,7 +49,18 @@ ref = element ref {
   attribute type { 'kicktionary' }
 }
 
+query = element query { text }
+
 map = element map {
-  attribute corpus { 'regional' | 'webmonitor' }?,
-  attribute query { text }?
+  attribute corpus { 'regional' | 'webmonitor' }?
+}
+
+plot = element plot {
+  attribute hide  { xsd:boolean }?,
+  attribute corpus { 'dwdsxl' | 'zeitungenxl' }?,
+  attribute start { xsd:integer }?,
+  attribute end   { xsd:integer }?,
+  attribute prune { xsd:float }?,
+  attribute slice { xsd:integer }?,
+  attribute window { xsd:integer }?
 }

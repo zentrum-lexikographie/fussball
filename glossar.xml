@@ -197,6 +197,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#spielerbewegung">
       <form>abkippen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore #techniken-bewegungen" aspect="#torwartbewegung">
       <form hom="1">abklatschen</form>
@@ -204,13 +205,16 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#transfer">
       <form>ablösefrei</form>
+      <plot/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>abmelden</form>
       <ref type="kicktionary" target="Mark/LU_1678.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torwartbewegung #spielerbewegung">
       <form>abpatschen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#ballbewegung">
       <form>Abpraller</form>
@@ -226,17 +230,21 @@
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>abschirmen</form>
       <ref type="kicktionary" target="Mark/LU_16.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#abschlag">
       <form>Abschlag</form>
       <ref type="kicktionary" target="Goal_Kickoff/LU_17.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#abschlag #spielerbewegung #koerperteil">
       <form>abschlagen</form>
       <ref type="kicktionary" target="Goal_Kickoff/LU_18.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#torschuss">
       <form>Abschluss</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsende">
       <form>Abschlusstabelle</form>
@@ -273,6 +281,7 @@
     </entry>
     <entry category="#spielereignisse-tore #spielerpositionen" aspect="#tor-treffer #torschuss #spieler">
       <form>Abstauberin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsende">
       <form>absteigen</form>
@@ -358,12 +367,14 @@
     </entry>
     <entry category="#mannschaftsstruktur-aufstellung" aspect="#angriff #spieler">
       <form>Ankerstürmer</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielbeginn-ende">
       <form>Ankick</form>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>anlaufen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#fehlschuss">
       <form>anschießen</form>
@@ -379,6 +390,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>anschneiden</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#pass">
       <form>anspielen</form>
@@ -406,9 +418,13 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv #abseits">
       <form>auf Abseits spielen</form>
+      <query>"auf Abseits" &amp;&amp; spielen</query>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>auf Konter lauern</form>
+      <query>"auf Konter" &amp;&amp; lauern</query>
+      <query>"auf Konter" &amp;&amp; gelauert</query>
+      <plot/>
       <ref type="kicktionary" target="Tactics/LU_1791.html"/>
     </entry>
     <entry category="#kultur-umfeld" aspect="#entwicklung">
@@ -416,6 +432,7 @@
     </entry>
     <entry category="#kultur-umfeld" aspect="#personal">
       <form>Auflaufkind</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>Aufsetzer</form>
@@ -437,14 +454,17 @@
       <form>Aus</form>
       <ref type="kicktionary" target="Elimination/LU_65.html"/>
       <ref type="kicktionary" target="Field/LU_1309.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torwartbewegung">
       <form>aus dem Winkel fischen</form>
       <form>aus dem Torwinkel fischen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
       <form>Ausgleich</form>
       <ref type="kicktionary" target="Goal/LU_68.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielstand">
       <form>Ausgleichstor</form>
@@ -463,6 +483,7 @@
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>ausscheiden</form>
       <ref type="kicktionary" target="Elimination/LU_74.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins">
       <form>austanzen</form>
@@ -470,6 +491,7 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>austragen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Austragung</form>
@@ -541,6 +563,7 @@
     </entry>
     <entry category="#mannschaftsstruktur-aufstellung" aspect="#spieler #spielerbewegung">
       <form>ballestern</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>Ballgefühl</form>
@@ -568,10 +591,12 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler #bank">
       <form>Bankdrückerin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler #bank">
       <form>Bankerldrücker</form>
       <form>Bankerldrucker</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#vorlage">
       <form>bedienen</form>
@@ -583,6 +608,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>bei jmdm. abgemeldet sein</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#trick">
       <form>Beinschuss</form>
@@ -591,15 +617,19 @@
     <entry category="#techniken-bewegungen #spielerpositionen" aspect="#taktik-defensiv">
       <form>beschatten</form>
       <ref type="kicktionary" target="Mark/LU_472.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>Beton anmischen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>Beton anrühren</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>betonieren</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#taktik-defensiv">
       <form>Bewacher</form>
@@ -692,12 +722,15 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Cupbewerb</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #spielphase">
       <form>das Ding drehen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer">
       <form>das Ding reinmachen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>das Ergebnis verwalten</form>
@@ -728,6 +761,7 @@
       <form>den Bus parken</form>
       <form>den Bus vor dem Tor parken</form>
       <form>den Bus vor dem eigenen Tor parken</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Derby</form>
