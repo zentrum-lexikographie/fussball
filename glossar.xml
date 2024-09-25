@@ -601,6 +601,7 @@
     <entry category="#techniken-bewegungen" aspect="#vorlage">
       <form>bedienen</form>
       <ref type="kicktionary" target="Pass/LU_86.html"/>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen #spielereignisse-tore" aspect="#tor-treffer #rettung">
       <form>Befreiungsschlag</form>
@@ -1002,6 +1003,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Ergebnisfußballer</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#aufstellung #spieler">
       <form>Ergänzungsspieler</form>
@@ -1041,6 +1043,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
       <form>Ersatztorwartin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer #tor-geraet">
       <form>es rappelt in der Kiste</form>
@@ -1048,6 +1051,7 @@
     <entry category="#kultur-umfeld" aspect="#personal">
       <form>Eskortenkind</form>
       <form>Eskortkind</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielphase">
       <form>etw. aus der Hand geben</form>
@@ -1075,9 +1079,11 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielausgang">
       <form hom="2">Exploit</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#kultur-umfeld" aspect="#zuschauer">
       <form>Fahnenpass</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#koerperlichkeit #spielerbewegung">
       <form>Faller</form>
@@ -1110,9 +1116,11 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik #koerperteil">
       <form>Ferserl</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik #spieler #koerperteil">
       <form>Fersler</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>festspielen</form>
@@ -1267,6 +1275,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#ballbewegung">
       <form>gaberln</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerb">
       <form>Gastmannschaft</form>
@@ -1343,6 +1352,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
       <form>Goalkeeperin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielbeginn-ende #tor-treffer">
       <form>Golden Goal</form>
@@ -1438,10 +1448,12 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>Hammer</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Shot/LU_208.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
       <form>Hand</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Body_Parts/LU_1654.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#standard #koerperteil">
@@ -1453,6 +1465,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
       <form>Hands</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#regelverstoss #koerperteil">
       <form>Handspiel</form>
@@ -1507,6 +1520,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>hereinstoßen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#strafe">
       <form>Hinausstellung</form>
@@ -1542,6 +1556,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>hämmern</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Shot/LU_222.html"/>
       <ref type="kicktionary" target="Shot_Supports/LU_223.html"/>
     </entry>
@@ -1596,6 +1611,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler">
       <form>Instinktfußballerin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#mannschaft">
       <form>Jausengegner</form>
@@ -1673,6 +1689,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#einwechslung #spieler">
       <form>Jokerin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
       <form>K.-o.-Phase</form>
@@ -1694,9 +1711,11 @@
     <entry category="#kultur-umfeld" aspect="#zuschauer">
       <form hom="1">Kapo</form>
       <form>Capo</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>Kasten</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Goal_Target/LU_867.html"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
@@ -1720,6 +1739,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#fehlschuss">
       <form>Kerze</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Defense_Shot/LU_231.html"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#spiel">
@@ -1739,6 +1759,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>klein-klein</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>klein-klein spielen</form>
@@ -1754,6 +1775,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#angriff #spieler">
       <form>Knipserin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Kombinationsfußball</form>
@@ -1812,6 +1834,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise #pass">
       <form>Kreisel</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>Kreuzeck</form>
@@ -1875,6 +1898,7 @@
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#ball">
       <form>Leder</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Ball/LU_779.html"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#ausruestung">
@@ -1924,9 +1948,11 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form hom="2">Lob</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>lobben</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#pass">
       <form>Lochpass</form>
@@ -1940,6 +1966,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#taktik-spielweise">
       <form>Luftüberlegenheit</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>lupfen</form>
@@ -1968,10 +1995,12 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#standard #spieler">
       <form>Mauer</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Set_Piece/LU_885.html"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-defensiv">
       <form>mauern</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Tactics/LU_258.html"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
@@ -2011,9 +2040,11 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#bewegung">
       <form>Move</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#ball">
       <form hom="1">Murmel</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie #techniken-bewegungen" aspect="#mannschaftsbewegung #taktik-spielweise">
       <form>nach vorn spielen</form>
@@ -2021,6 +2052,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#zweikampf">
       <form>nachhaken</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#torschuss">
       <form>Nachschuss</form>
@@ -2071,6 +2103,7 @@
     </entry>
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#angriff #taktik-offensiv">
       <form>Offensive</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Team/LU_1723.html"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-offensiv">
@@ -2087,19 +2120,24 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
       <form>On-Field-Review</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#kontrolle #taktik-spielweise">
       <form>One-Touch-Fußball</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#spielfeld #aus">
       <form>Out</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#spielfeld #aus">
       <form>out</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#standard #bewegung">
       <form>Outeinwurf</form>
       <form>Out-Einwurf</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Outwachler</form>
@@ -2109,6 +2147,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#spielausgang #taktik-spielweise">
       <form>panieren</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid #spielerbewegung">
       <form>passive Abseitsstellung</form>
@@ -2164,6 +2203,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Pressingopfer</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#eins-gegen-eins #ball #ballbewegung">
       <form>Pressschlag</form>
@@ -2176,6 +2216,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>Präzisionsschuss</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#kultur-umfeld" aspect="#zuschauer">
       <form>Public Viewing</form>
@@ -2351,13 +2392,16 @@
     </entry>
     <entry category="#techniken-bewegungen #schiedsrichterwesen-regeln" aspect="#unsportlichkeit #spielerbewegung">
       <form>Schwalbe</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Simulation/LU_325.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Schwarzkittel</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
       <form>Sechser</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore #spielformen-wettbewerbe" aspect="tor-treffer #wettbewerbsphase">
       <form>Sechserpack</form>
@@ -2396,6 +2440,7 @@
     </entry>
     <entry category="techniken-bewegungen" aspect="#standard #spielfeld">
       <form>Seiteneinwurf</form>
+      <plot hide="true"/>
     </entry>
     <entry category="ausruestung-spielfeld" aspect="#spielfeld">
       <form>Seitenlinie</form>
@@ -2404,6 +2449,7 @@
     <entry category="ausruestung-spielfeld" aspect="#aus #spielfeld">
       <form>Seitenout</form>
       <form>Seiten-Out</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>Seitfallzieher</form>
@@ -2504,6 +2550,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielphase">
       <form>Spielszene</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise #mannschaftsbewegung">
       <form>Spielverlagerung</form>
@@ -2514,6 +2561,7 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>Spitzenreiter</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>spitzer Winkel</form>
@@ -2540,6 +2588,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#standard">
       <form>Standard</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Set_Piece/LU_365.html"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#standard">
@@ -2562,6 +2611,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>steilgehen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#pass">
       <form>Steilpass</form>
@@ -2569,6 +2619,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung">
       <form>steilschicken</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#vorlage">
       <form>Steilvorlage</form>
@@ -2598,6 +2649,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#angriff #spieler">
       <form>Strafraumspielerin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#spielfeld #spielphase">
       <form>Strafraumszene</form>
@@ -2608,6 +2660,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#angriff">
       <form>Sturm</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Team/LU_1363.html"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#zweikampf">
@@ -2634,12 +2687,14 @@
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsplatzierung">
       <form>Titel</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielformen-wettbewerbe" aspect="#wettbewerbsphase">
       <form>Todesgruppe</form>
     </entry>
     <entry category="#spielereignisse-tore #ausruestung-spielfeld" aspect="#tor-treffer #tor-geraet">
       <form hom="1">Tor</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Goal/LU_381.html"/>
       <ref type="kicktionary" target="Goal_Target/LU_865.html"/>
     </entry>
@@ -2697,6 +2752,7 @@
     <entry category="#ausruestung-spielfeld" aspect="#spielfeld">
       <form>Torout</form>
       <form>Tor-Out</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#ausruestung-spielfeld" aspect="#tor-geraet">
       <form>Torpfosten</form>
@@ -2817,6 +2873,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#taktik-spielweise">
       <form>ungedeckt</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Being_Free/LU_399.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
@@ -2842,6 +2899,7 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>VAR-Assistent</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#fehlschuss">
       <form>verdaddeln</form>
@@ -2864,10 +2922,12 @@
     </entry>
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #spieler">
       <form>Verteidiger</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Player/LU_924.html"/>
     </entry>
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #spieler">
       <form>Verteidigerin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen #mannschaftsstruktur-aufstellung" aspect="#abwehr #taktik-defensiv">
       <form>Verteidigung</form>
@@ -2875,6 +2935,7 @@
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise">
       <form>Vertikalfußball</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielereignisse-tore" aspect="#pass">
       <form>Vertikalpass</form>
@@ -2885,6 +2946,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#tor-treffer">
       <form>verwandeln</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Convert_Chance/LU_420.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
@@ -2894,6 +2956,7 @@
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Video-Schiedsrichterassistentin</form>
       <form>Videoschiedsrichterassistentin</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichter">
       <form>Videoassistent</form>
@@ -2986,6 +3049,7 @@
     </entry>
     <entry category="#spielereignisse-tore" aspect="#vorlage">
       <form>Vorlage</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Pass/LU_431.html"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#vorlage #spieler">
@@ -2993,10 +3057,12 @@
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#vorteil">
       <form>Vorteil</form>
+      <plot hide="true"/>
       <ref type="kicktionary" target="Advantage/LU_681.html"/>
     </entry>
     <entry category="#schiedsrichterwesen-regeln" aspect="#schiedsrichterentscheid">
       <form>wacheln</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#spieler">
       <form>Wadenbeißer</form>
@@ -3006,6 +3072,7 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schusstechnik">
       <form>wegchippen</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen" aspect="#schuss">
       <form>Weitschuss</form>
@@ -3024,12 +3091,15 @@
     </entry>
     <entry category="#techniken-bewegungen" aspect="#spielerbewegung #ballbewegung">
       <form>zangeln</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#techniken-bewegungen #spielerpositionen" aspect="#spielerbewegung #ballbewegung #spieler">
       <form>Zangler</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielerpositionen" aspect="#mittelfeld #spieler">
       <form hom="1">Zehner</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#taktik-spielweise #spielphase">
       <form>Zeit von der Uhr nehmen</form>
@@ -3069,6 +3139,7 @@
     </entry>
     <entry category="#spielerpositionen" aspect="#torwart">
       <form>Zweiergoalie</form>
+      <plot hide="true"/>
     </entry>
     <entry category="#spielstrategie" aspect="#zweikampf">
       <form>Zweikampfstärke</form>
